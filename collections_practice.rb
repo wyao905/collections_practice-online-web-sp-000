@@ -40,3 +40,5 @@ def kesha_maker(array)
     collect << word
   end
 end
+
+def find_a(array)
