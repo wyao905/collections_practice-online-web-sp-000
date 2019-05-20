@@ -50,3 +50,6 @@ def find_a(array)
   end
   return collect
 end
+
+def sum_array(array)
+  array.
