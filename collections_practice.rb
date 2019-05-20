@@ -32,3 +32,11 @@ def reverse_array(array)
     b <=> a
   end
 end
+
+def kesha_maker(array)
+  collect = []
+  array.each do |word|
+    word[2] = "$"
+    collect << word
+  end
+end
