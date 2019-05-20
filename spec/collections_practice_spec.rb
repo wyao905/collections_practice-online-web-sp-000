@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
-      expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
+      expect(reverse_array([12, 4, 35])).to eq([35, 12, 4])
     end
   end
 
